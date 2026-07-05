@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pvptracker",
+  "version": "${version}",
+  "name": "PvP Tracker",
+  "description": "Action-bar HUD showing your own Wind Charge/Pearl counts, plus the nearest enemy's Wind Charges, Pearls, Potions, Totems, XP Bottles, and armor/Mace durability.",
+  "authors": ["YourServer"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourserver.pvptracker.PvpTrackerMod"
+    ],
+    "client": [
+      "com.yourserver.pvptracker.client.PvpTrackerModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
